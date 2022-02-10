@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Requirements
 ## Introduction
@@ -48,3 +49,5 @@ __HIGH LEVEL REQUIREMENTS__
 | HR04  |  The Application it is a base which is easily represented by electronic devices.                                                         |Textual |           |
 | HR05  |  The Binary Number System are also ease of use in coding, fewer computations and less computational errors                               |Textual |           |     
 | HR06  |  The Application should allow user to exit from application.        |Textual |           | 
+
+
