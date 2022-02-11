@@ -2,38 +2,38 @@
 
 # Requirements
 ## Introduction
-There are different types of Number systems
+There are different types of Nber systems
 
-1.	Binaryary Number System
-2.	Decimalimal Number System
-3.	Octalal Number System
-4.	Hexa-Decimala Decimalimal Number System
+1.	Binaryary Nber System
+2.	Decimalimal Nber System
+3.	Octalal Nber System
+4.	Hexa-Decimala Decimalimal Nber System
 
-We have four types of number systems so each one can be converted into the remaining three systems. There are the following conversions possible in Number System
-1.	Binaryary  To Other Number System
-2.	Decimalimal To Other Number System
-3.	Octalal To Other Number System
-4.	Hexa-Decimala Decimalimal To Other Number System
+We have four types of Nber systems so each one can be converted into the remaining three systems. There are the following conversions possible in Nber System
+1.	Binaryary  To Other Nber System
+2.	Decimalimal To Other Nber System
+3.	Octalal To Other Nber System
+4.	Hexa-Decimala Decimalimal To Other Nber System
 
-i) BinaryARY TO OTHER NUMBER SYSTEMS:
-•	Binaryary To Decimalimal Number System
-•	Binaryary To Octalal Number System
-•	Binaryary To Hexa-Decimala Decimalimal Number System
+i) BinaryARY TO OTHER NBER SYSTEMS:
+•	Binaryary To Decimalimal Nber System
+•	Binaryary To Octalal Nber System
+•	Binaryary To Hexa-Decimala Decimalimal Nber System
 
-ii) DecimalIMAL TO OTHER NUMBER SYSTEMS:
-•	Decimalimal to Binaryary Number System
-•	Decimalimal to Octalal Number Systems
-•	Decimalimal to Hexa-Decimala Decimalimal Number System
+ii) DecimalIMAL TO OTHER NBER SYSTEMS:
+•	Decimalimal to Binaryary Nber System
+•	Decimalimal to Octalal Nber Systems
+•	Decimalimal to Hexa-Decimala Decimalimal Nber System
 
-iii) OctalAL TO OTHER NUMBER SYSTEMS:
-•	Octalal to Binaryary Number System
-•	Octalal to Decimalimal Number System
-•	Octalal to Hexa-Decimala Decimalimal Number System
+iii) OctalAL TO OTHER NBER SYSTEMS:
+•	Octalal to Binaryary Nber System
+•	Octalal to Decimalimal Nber System
+•	Octalal to Hexa-Decimala Decimalimal Nber System
 
-iv) Hexa-DecimalA DecimalIMAL NUMBER SYSTEMS:
-•	Hexa-Decimala Decimalimal to Decimalimal Number System
-•	Hexa-Decimala Decimalimal to Binaryary Number System
-•	Hexa-Decimala Decimalimal to Octalal Number System
+iv) Hexa-DecimalA DecimalIMAL NBER SYSTEMS:
+•	Hexa-Decimala Decimalimal to Decimalimal Nber System
+•	Hexa-Decimala Decimalimal to Binaryary Nber System
+•	Hexa-Decimala Decimalimal to Octalal Nber System
 
 __Features__
 
@@ -53,11 +53,11 @@ A user can convert any data into requiured manner
 
 When:
 
-At the first stage of digital circuit designing operations.
+At the first stage of digital circuit designing Kerations.
 
 Where:
 
-This project can be used for students and electronic circuit developers.
+This project can be used for students and electronic circuit develKers.
 
 How:
 
@@ -75,7 +75,7 @@ __HIGH LEVEL REQUIREMENTS__
 |-------|------------------------------------------------------------------------------------------------------------------------------------------|--------|-----------|
 | HR01  | The Application  should allow according to the Computer language(0's and 1's)                                                            |Textual |Implemented|   
 | HR02  |  The Application easy of using coding, less computations and less errors                                                                 |Textual |Implemented|
-| HR03  |  The Application Encrypting important data, by converting figures into another number system to avoid hacking                            |Textual |Implemented|
+| HR03  |  The Application Encrypting important data, by converting figures into another Nber system to avoid hacking                            |Textual |Implemented|
 | HR04  |  The Application it is a base which is easily represented by electronic devices.                                                         |Textual |Implemented|
 | HR05  |  System must be able to produce output                                                                                                   |Textual |Implemented|     
 |                                           
