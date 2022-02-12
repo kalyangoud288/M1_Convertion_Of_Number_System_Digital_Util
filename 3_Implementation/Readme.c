@@ -13,10 +13,7 @@ long int Decimal_to_Hexa-Decimal(long int); //6:DecimalIMAL TO Hexa-DecimalA-Dec
 long int Octal_to_Binary(long int); //7:OctalAL TO BinaryARY
 long int Octal_to_Decimal(long int); //8:OctalAL TO DecimalIMAL
 long int Octal_to_Hexa-Decimal(long int); //9:OctalAL TO Hexa-DecimalA-DecimalIMAL
-void Hexa-Decimal_to_Binary(char []); //10:Hexa-DecimalA-DecimalIMAL TO BinaryARY
-void Hexa-Decimal_to_Decimal(char []); //11:Hexa-DecimalA-DecimalIMAL TO DecimalIMAL
-void Hexa-Decimal_to_Octal(char []); //12:Hexa-DecimalA-DecimalIMAL TO OctalAL
- 
+
 int main()
 {
     int K,N=1,chck;
