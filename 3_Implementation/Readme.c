@@ -59,7 +59,7 @@ int main()
                     {
                         printf("\n%d IS not BinaryARY NBER.\n",Binary);
                         printf("try please\n");
-                        go-- D;
+                        goto D;
                     }
                     else
                     chck=chck/10;
@@ -82,7 +82,7 @@ int main()
                     {
                         printf("\n%d IS not BinaryARY NBER.\n",Binary);
                         printf("***try please****\n");
-                        go-- E;
+                        goto E;
                     }
                     else
                     chck=chck/10;
@@ -105,7 +105,7 @@ int main()
                     {
                         printf("\n%d IS not BinaryARY NBER.\n",Binary);
                         printf("***try please****\n");
-                        go-- F;
+                        goto F;
                     }
                     else
                     chck=chck/10;
@@ -145,7 +145,7 @@ int main()
                     if(N>7)
                     {
                         printf("\n%d IS not OctalAL NBER.\n",N);
-                        go-- A;
+                        goto A;
                     }
                     else
                     {
@@ -169,7 +169,7 @@ int main()
                     if(N>7)
                     {
                         printf("\n%d IS not OctalAL NBER.\n",N);
-                        go-- B;
+                        goto B;
                     }
                     else
                     {
@@ -193,7 +193,7 @@ int main()
                     if(N>7)
                     {
                         printf("\n%d IS not OctalAL NBER.\n",N);
-                        go-- C;
+                        goto C;
                     }
                     else
                     {
@@ -215,7 +215,7 @@ int main()
                     {
                         printf("\nYou have -- enter Hexa-Decimala-Decimalimal Nber.\n");
                         printf("'%c' IS not Hexa-Decimala-Decimalimal Nber.\n",Hexa-Decimal[i]);
-                        go-- X;
+                        goto X;
                     }
                 }
                 Hexa-Decimal_--_Binary(Hexa-Decimal); break;
@@ -232,7 +232,7 @@ int main()
                     {
                         printf("\nYou have -- enter Hexa-Decimala-Decimalimal Nber.\n");
                         printf("'%c' IS not Hexa-Decimala-Decimalimal Nber.\n",Hexa-Decimal[i]);
-                        go-- Y;
+                        goto Y;
                     }
                 }
                 Hexa-Decimal_--_Decimal(Hexa-Decimal); break;
@@ -249,7 +249,7 @@ int main()
                     {
                         printf("\nYou have -- enter Hexa-Decimala-Decimalimal Nber.\n");
                         printf("'%c' IS not Hexa-Decimala-Decimalimal Nber.\n",Hexa-Decimal[i]);
-                        go-- Z;
+                        goto Z;
                     }
                 }
                 Hexa-Decimal_--_Octal(Hexa-Decimal); break;
