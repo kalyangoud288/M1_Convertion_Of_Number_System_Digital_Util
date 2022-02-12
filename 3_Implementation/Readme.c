@@ -22,13 +22,13 @@ int main()
     int K,N=1,chck;
     long int Binary,Octal,Decimal;
     char Hexa-Decimal[100];
-    int i,j,s;  //  FOR PATTERN
+    int i,j,s;  
      
     printf("\t\tWELCOME TO NBER SYSTEM CONVERSION\n\n");
      
     while(N!=0)
     {
-        printf("\t\t>>>>>> CHOOSE THE CONVERSION <<<<<<\n\n");
+        printf("\t CHOOSE THE CONVERSION <<<<<<\n\n");
      
         printf("=> BinaryARY <=\n");
         printf("1: Binaryary to Decimalimal.\n2: Binaryary to Octalal.\n3: Binaryary to Hexa-Decimala-Decimalimal.\n");
@@ -48,7 +48,7 @@ int main()
         switch(K)
         {
             case 1:
-                printf("\n***BinaryARY TO DecimalIMAL***\n");
+                printf("\nBinaryARY TO DecimalIMAL\n");
                 D:
                 printf("\nEnter the Nber in Binaryary form (0s & 1s): ");
                 scanf("%ld",&Binary);
@@ -61,7 +61,7 @@ int main()
                     if(N>1)
                     {
                         printf("\n%d IS NOT BinaryARY NBER.\n",Binary);
-                        printf("***TRY AGAIN****\n");
+                        printf("TRY AGAIN\n");
                         goto D;
                     }
                     else
@@ -129,7 +129,7 @@ int main()
                 Decimal_to_Octal(Decimal); break;
              
             case 6:
-                printf("\n***DecimalIMAL TO Hexa-DecimalA-DecimalIMAL***\n");
+                printf("\nDecimalIMAL TO Hexa-DecimalA-DecimalIMAL\n");
                 printf("\nEnter the Nber in Decimalimal form (0 to 9): ");
                 scanf("%ld",&Decimal);
                 Decimal_to_Hexa-Decimal(Decimal); break;
@@ -560,155 +560,3 @@ long int Octal_to_Hexa-Decimal(long int Octal)
     }
 }
  
-void Hexa-Decimal_to_Binary(char Hexa-Decimal[])
-{
-    int i=0;
-    printf("\nEquivalent Binaryary Nber : ");
-    for(i=0;i<strlen(Hexa-Decimal);i++)
-    {
-        switch (Hexa-Decimal[i])
-        {
-        case '0':
-            printf("0000"); break;
-        case '1':
-            printf("0001"); break;
-        case '2':
-            printf("0010"); break;
-        case '3':
-            printf("0011"); break;
-        case '4':
-            printf("0100"); break;
-        case '5':
-            printf("0101"); break;
-        case '6':
-            printf("0110"); break;
-        case '7':
-            printf("0111"); break;
-        case '8':
-            printf("1000"); break;
-        case '9':
-            printf("1001"); break;
-        case 'A':
-        case 'a':   
-            printf("1010"); break;
-        case 'B':
-        case 'b':
-            printf("1011"); break;
-        case 'C':
-        case 'c':   
-            printf("1100"); break;
-        case 'D':
-        case 'd':   
-            printf("1101"); break;
-        case 'E':
-        case 'e':   
-            printf("1110"); break;
-        case 'F':
-        case 'f':   
-            printf("1111"); break;
-         
-        default:
-            printf("\n Invalid Hexa-Decimala digit %c ", Hexa-Decimal[i]);            
-        }
-    }
- 
-}
- 
-void Hexa-Decimal_to_Decimal(char Hexa-Decimal[])
-{
-    int i,N=0,power=0,Decimalimal=0;
-     
-    for(i=strlen(Hexa-Decimal)-1;i>=0;i--)
-    {
-        if(Hexa-Decimal[i]=='A'||Hexa-Decimal[i]=='a')
-        {
-            N=10;
-        }
-        else if(Hexa-Decimal[i]=='B'||Hexa-Decimal[i]=='b')
-        {
-            N=11;
-        }
-        else if(Hexa-Decimal[i]=='C'||Hexa-Decimal[i]=='c')
-        {
-            N=12;
-        }
-        else if(Hexa-Decimal[i]=='D'||Hexa-Decimal[i]=='d')
-        {
-            N=13;
-        }
-        else if(Hexa-Decimal[i]=='E'||Hexa-Decimal[i]=='e')
-        {
-            N=14;
-        }
-        else if(Hexa-Decimal[i]=='F'||Hexa-Decimal[i]=='f')
-        {
-            N=15;
-        }
-        else
-        //(a[i]>=0 || a[i]<=9)
-        {
-            N=Hexa-Decimal[i]-48;
-        }
-         
-        Decimalimal=Decimalimal+N*pow(16,power);
-        power++;
-    }
-    printf("\nEquivalent Decimalimal Nber : %d",Decimalimal);
- 
-}
- 
-void Hexa-Decimal_to_Octal(char Hexa-Decimal[])
-{
-    int i,len,N=0,power=0,Decimalimal=0,rem[100];
-     
-    for(i=strlen(Hexa-Decimal)-1;i>=0;i--)
-    {
-        if(Hexa-Decimal[i]=='A'||Hexa-Decimal[i]=='a')
-        {
-            N=10;
-        }
-        else if(Hexa-Decimal[i]=='B'||Hexa-Decimal[i]=='b')
-        {
-            N=11;
-        }
-        else if(Hexa-Decimal[i]=='C'||Hexa-Decimal[i]=='c')
-        {
-            N=12;
-        }
-        else if(Hexa-Decimal[i]=='D'||Hexa-Decimal[i]=='d')
-        {
-            N=13;
-        }
-        else if(Hexa-Decimal[i]=='E'||Hexa-Decimal[i]=='e')
-        {
-            N=14;
-        }
-        else if(Hexa-Decimal[i]=='F'||Hexa-Decimal[i]=='f')
-        {
-            N=15;
-        }
-        else
-        //(a[i]>=0 || a[i]<=9)
-        {
-            N=Hexa-Decimal[i]-48;
-        }
-         
-        Decimalimal=Decimalimal+N*pow(16,power);
-        power++;
-    }
-     
-    i=0,len=0;
-    while(Decimalimal!=0)
-    {
-        rem[i]=Decimalimal%8;
-        Decimalimal=Decimalimal/8;
-        i++;
-        len++;
-    }
-    printf("\nEquivalent Octalal Nber : ");
-    for(i=len-1;i>=0;i--)
-    {
-        printf("%d",rem[i]);
-    }
-     
-}
