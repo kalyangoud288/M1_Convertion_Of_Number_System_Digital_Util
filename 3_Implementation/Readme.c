@@ -2,7 +2,7 @@
 #include <math.h>
 #include<string.h>
 #include <conio.h>
- 
+
 long int BinarytoDecimal(long int); //1:BINARY TO DECIMAL
 long int BinarytoOctal(long int); //2:BINARY TO OCTAL
 long int BinarytoHexa(long int); //3:BINARY TO HEXA-DECIMAL
@@ -15,7 +15,7 @@ long int OctaltoHexa(long int); //9:OCTAL TO HEXA-DECIMAL
 void Hexatobinary(char []); //10:HEXA-DECIMAL TO BINARY
 void HexatoDecimal(char []); //11:HEXA-DECIMAL TO DECIMAL
 void HexatoOctal(char []); //12:HEXA-DECIMAL TO OCTAL
- 
+
 int main()
 {
     int Operation,num=1,Chk;
@@ -275,7 +275,8 @@ int main()
             S--;
             for( j=1;j<=2*i-1;j++)
             {
-                printf("*");
+                printf("ok");
+                break;
             }
             printf("\n");
         }
@@ -285,20 +286,19 @@ int main()
             for( j=1;j<=S;j++)
             {
                 printf(" ");
+                break;
             }
             S++;
             for( j=1;j<=2*(3-i)-1;j++)
             {
-                printf("*");
+                printf("");
                
             }
             
             printf("\n");
             
         }
-        printf("\t\t BROUGHT TO YOU BY code-projects.org \n\t\t Log On now For More Free Projects"); 
 }
- 
 long int BinarytoDecimal(long int K)
 {
     int rem,sum=0,i=0;
@@ -711,3 +711,4 @@ void HexatoOctal(char hex[])
     }
      
 }
+ 
